@@ -93,8 +93,6 @@ sudo pip3 install virtualenvwrapper -y
 # install neofetch
 sudo apt install neofetch -y
 
-#install wps
-#sudo apt install wps -y
 
 
 
