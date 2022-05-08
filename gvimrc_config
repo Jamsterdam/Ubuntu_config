@@ -1,6 +1,32 @@
 " this script is to config the vim editor. 
 " need to append the followed scripts to the /etc/vim/gvimrc (with sudo command)
 
+" Basic settings
+" use system clipboard
+set clipboard=unnamed
+" 显示行号
+set number
+"设置字体字号（windows）
+set guifont=宋体:h16
+"设置字体字号（Linux）
+set guifont=Monospace\ 14
+"设置主题风格(windows)
+colorscheme industry
+"设置主题风格（Linux）
+colorscheme desert
+"设置窗口大小(windows)
+set lines=46 columns=188
+"设置窗口大小(Linux)
+set lines=46 columns=100
+"设置回退可换行
+set backspace=2
+"设置编码格式为uft-8
+set  encoding=utf-8
+set  fileencodings=ucs-bom,utf-8,cp936
+set  fileencoding=gb2312
+set  termencoding=utf-8
+"------------divider------------------
+
 " to map  the Ctrl-y to copy and the Ctrl-p to paste 
 nnoremap <C-y> "+y
 vnoremap <C-y> "+y
