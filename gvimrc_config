@@ -1,0 +1,8 @@
+" this script is to config the vim editor. 
+" need to append the followed scripts to the /etc/vim/gvimrc (with sudo command)
+
+" to map  the Ctrl-y to copy and the Ctrl-p to paste 
+nnoremap <C-y> "+y
+vnoremap <C-y> "+y
+nnoremap <C-p> "+p
+vnoremap <C-p> "+p
