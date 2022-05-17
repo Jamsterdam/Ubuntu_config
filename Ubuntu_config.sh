@@ -47,7 +47,6 @@ sudo gvim /etc/vim/gvimrc
 #sudo apt install gdebi
 #sudo gdebi  nautilus_nutstore_amd64.deb
 
-#安装wps
 
 #安装git========================================================================================
 sudo apt install git -y
@@ -63,9 +62,7 @@ git config --global core.editor gvim
 #本地同步demo项目
 
 
-#安装siyuan
 #安装telegram
-#本地同步siyuan笔记项目
 #设置环境变量
 
 
@@ -94,12 +91,10 @@ sudo pip3 install virtualenvwrapper -y
 sudo apt install neofetch -y
 
 
-
-
-
-
-
 # git config list
 git config --list --show-origin
 # show the system info
 neofetch
+
+# install Microsoft fonts
+bash /home/allen/Documents/Ubuntu_config/Ubuntu_config.sh
